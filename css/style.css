@@ -1,0 +1,239 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Global */
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+/* Global */
+
+header{
+  background: #191e22e0;
+  color: #fff;
+  min-height: 60px;
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+}
+
+header li{
+  float: left;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a:hover{
+  color: #000;
+  transition: .5s;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 22px;
+  transition: .5s;
+  font-family: Oswald;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+/* header */
+
+.showcase{
+  min-height: 100vh;
+  background: url(../img/office-865091_1920.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+.showcase h1{
+  font-size: 55px;
+  margin-top: 230px;
+  font-family: Do Hyeon;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.detail{
+  margin-top: 80px;
+  border: #424242e0 2px solid;
+  background-color: #424242e0;
+  font-size: 20px;
+  font-family: Oswald;
+  border-radius: 15px;
+  width: 160px;
+  height: 45px;
+  cursor: pointer;
+  padding: 0;
+  overflow: hidden;
+}
+
+.detail a{
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 40px;
+  border-radius: 15px;
+  transition: .5s;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.detail a:hover{
+  color: #000;
+  transition: .5s;
+}
+
+.intro h1, .projects h1, .contact h1{
+  font-size: 35px;
+  font-family: Oswald;
+  letter-spacing: 2px;
+  margin-top: 80px;
+}
+
+.intro, .projects, .contact{
+  font-family: Jua;
+}
+
+/* intro */
+.intro{
+  display: inline-block;
+  min-height: 600px;
+}
+
+.intro p{
+  line-height: 60px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.career{
+  font-size: 20px;
+}
+
+.introduce{
+  width: 820px;
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.profile{
+  float: right;
+  width: 200px;
+  height: 250px;
+  margin-right: 80px;
+}
+/* intro */
+
+/* Projects */
+.projects{
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.first, .second{
+  width: 100%;
+  min-height: 380px;
+  display: inline-block;
+  margin: 50px  0;
+  text-align: center;
+}
+
+.projects p{
+  margin-top: 95px;
+}
+
+.first_p{
+  float: right;
+}
+
+.second_p{
+  float: left;
+}
+
+.projects img{
+  width: 380px;
+  height: 380px;
+}
+
+.pic1{
+  float: left;
+  margin-left: 20px;
+}
+
+.pic2{
+  float: right;
+  margin-right: 20px;
+}
+
+/* Projects */
+
+.end{
+  font-family: Do Hyeon;
+  text-align: center;
+  background: url(../img/website-647013_1920.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 320px;
+}
+
+.end h1{
+  color: #fff;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+footer{
+  height: 100px;
+  background-color: #1d1d1d;
+  color: rgb(243, 243, 243);
+}
+
+footer p{
+  
+}
+
+/* @media(max-width: 980px){
+  .intro h1, .projects h1, .contact h1{
+    text-align: center;
+  }
+
+  header nav, header ul li{
+    float: none;
+  }
+} */
+
+@media(min-width: 768px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
