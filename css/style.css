@@ -1,18 +1,22 @@
+/* Global */
 body{
   margin: 0;
   padding: 0;
 }
 
-/* Global */
 ul{
   margin: 0;
   padding: 0;
 }
 
 .container{
-  width: 85%;
+  width: 70%;
   margin: auto;
   overflow: hidden;
+}
+
+.h1{
+  margin-left: 10%;
 }
 /* Global */
 
@@ -66,6 +70,7 @@ header nav{
   font-family: Do Hyeon;
   font-weight: lighter;
   font-style: italic;
+  transition: .5s;
 }
 
 .detail{
@@ -106,6 +111,7 @@ header nav{
 
 .intro, .projects, .contact{
   font-family: Jua;
+  transition: .5s;
 }
 
 /* intro */
@@ -145,16 +151,17 @@ header nav{
   line-height: 60px;
 }
 
-.first, .second{
-  width: 100%;
+.box{
+  width: 90%;
   min-height: 380px;
   display: inline-block;
-  margin: 50px  0;
+  margin: 50px auto;
+  padding: 0;
   text-align: center;
 }
 
 .projects p{
-  margin-top: 95px;
+  /* margin-top: 95px; */
 }
 
 .first_p{
@@ -168,6 +175,11 @@ header nav{
 .projects img{
   width: 380px;
   height: 380px;
+  transition: .5s ease;
+}
+
+.projects img:hover{
+
 }
 
 .pic1{
