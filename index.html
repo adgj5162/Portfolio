@@ -8,98 +8,99 @@
   <link rel="stylesheet" href="/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Yeon+Sung&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
 </head>
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+<link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
 
 <body>
-  <header>
-    <div class="container">
-      <nav class="navbar">
+  <header id="header">
+    <nav class="navbar">
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
         <ul>
-          <li><a href="#showcase">Home</a></li>
+          <li><a href="#header">Home</a></li>
           <li><a href="#intro">Intro</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
-
-  <section class="showcase" id="showcase">
-    <div class="container">
+      <div class="showcase">
       <h1>프론트엔드 및 UI 개발자<br>박형근입니다</h1>
       <button type="button" class="detail"><a href="#intro">See Detail</a></button>
-    </div>
-  </section>
-  <div class="h1">
-  <h1>Intro</h1>
-    </div>
-  <section class="intro" id="intro">
-    <div class="container">
+      </div>
+  </header>
+
+  <div class="container">
+  <section class="intro hide" id="intro">
+      <h1>Intro</h1>
+      <div class="intro1">
       <p class="career">2017.02  부산공업고등학교 기계과 졸업<br>
         2019.07  정보처리기능사 취득<br>
         2019.11  전자정부 프레임워크 Java 웹
         개발자 과정 수료
       </p>
       <img src="img/KakaoTalk.jpg" class="profile">
+      </div>
+      <div class="intro2">
       <p class="introduce">
-        " IT로 새로운 도전을 시작한 개발자입니다. 웹 개발자 교육과정을 이수하며, 화면의 동적인 요소를 구현하고 디자인 하는 데 흥미가 생겼습니다.
+        " IT로 새로운 도전을 시작한 개발자입니다. Java 웹 개발자 과정을 이수하며, 화면의 동적인 요소를 구현하고 디자인 하는 데 흥미가 생겼습니다.
         그 후 저는 프론트엔드 개발자로서의 준비를 하고있습니다. 배울 것도 많고, 배우고 싶은 것도 많습니다. 10년후를 바라보며, 끊임없이 새로운 기술을
         배우고 탐구해나갈 것입니다. "
       </p>
-    </div>
+      </div>
   </section>
   
- <div class="h1">
-  <h1>Projects</h1>
-    </div>
-
   <section class="projects" id="projects">
-    <div class="container">
-      <div class="box">
+      <h1 class="hide">Projects</h1>
+      <div class="box hide">
         <img class="pic1" src="img/pic1.png">
         <p class="first_p">Q - net<br>
           모델1 방식으로 구현한 첫 개인 프로젝트<br>
           기존의 사이트에서 아이디어 구상
         </p>
       </div>
-      <div></div>
-      <div class="box">
+      <div class="box hide">
         <p class="second_p">PAOSDY<br>
           교육기관에서 진행한 팀 프로젝트<br>
           6명이서 진행했으며, 쇼핑몰을 구현
         </p>
         <img class="pic2" src="img/pic2.png">
       </div>
-    </div>
   </section>
   
-  <div class="h1">
+  <section class="contact hide" id="contact">
     <h1>Contact</h1>
-      </div>
-  <section class="contact" id="contact">
-    <div class="container">
+    <div class="wrapper">
       <ul>
-        <li><i class="fa fa-google"></i></li>
-        <li><i class="fa fa-facebook"></i></li>
-        <li><i class="fa fa-github"></i></li>
-        <li><i class="fa fa-envelope"></i></li>
+        <a href="#contact"><li><i class="fa fa-google"></i></li></a>
+        <a href="#contact"><li><i class="fa fa-facebook"></i></li></a>
+        <a href="#contact"><li><i class="fa fa-github"></i></li></a>
+        <a href="#contact"><li><i class="fa fa-envelope"></i></li></a>
       </ul>
-    </div>
+    </div>  
   </section>
 
-  <section class="end">
-    <div class="container">
-      <h1>감사합니다!</h1>
-    </div>
+  </div>
+
+  <section id="end1" class="end">
+    <h1>감사합니다!</h1>
   </section>
 
   <footer>
-    TEL : 010 - 2702 - 5162<br>
+    <p>
+      TEL : 010 - 2702 - 5162<br>
     E - MAIL : adgj5162@naver.com
+    </p>
   </footer>
 
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <filter id="blur">
+        <feGaussianBlur stdDeviation="6" />
+    </filter>
+</svg>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="js/index.js"></script>
 </body>
